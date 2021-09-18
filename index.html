@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<title>Get Warmer</title>
+</head>
+<body>
+	<header>
+		<h1>Are you <span class="hottext">HOT</span> or <span class="coldtext">COLD</span>?</h1>
+	</header>
+	<main>
+		<section>
+			<p class="icon-sun"></p>
+		</section>
+		<section>
+			<form name="HotCold">
+				<p id="hint">Select a number<br>between 1 and 100:</p>
+				<p class="error hide">Please try again<br>Enter a number between 1 and 100:</p>
+				<input type="text" name="playerguess" id="playerguess" maxlength="3"><br>
+				<input type="button" name="submit" id="submit" value="guess">
+				<input type="button" name="replay" id="replay" value="replay" disabled>
+			</form>
+		</section>
+	</main>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
